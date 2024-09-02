@@ -1,0 +1,136 @@
+[22:04:24][I][logger:156]: Log initialized
+[22:04:24][I][app:029]: Running through setup()...
+[22:04:24][D][esp-idf:000]: I (414) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+[22:04:24]
+[22:04:24][D][binary_sensor:034]: 'Button': Sending initial state OFF
+[22:04:24][I][openthread:028]: Setting up OpenThread...
+[22:04:24][D][esp-idf:000][ot_cli_main]: I (416) OPENTHREAD: Host connection mode none
+[22:04:24]
+[22:04:25][D][esp-idf:000][[D][esp-idf:000][ot_cli_main]: I(715[D][esp-idf:000][ot_cli_main]: I(7278) OPENTHREAD:
+[22:04:25][D][esp-idf:000][ot_cli_main]: [N] RouterTable---: Allocate router id 59
+[22:04:25][D][esp-idf:000][ot_cli_main]: 
+[22:04:25]
+[22:04:25][D][esp-idf:000][ot_cli_main]: I(7281) OPENTHREAD:
+[22:04:25][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: RLOC16 fffe -> ec00
+[22:04:25][D][esp-idf:000][ot_cli_main]: 
+[22:04:25]
+[22:04:25][D][esp-idf:000][ot_cli_main]: I(7282) OPENTHREAD:
+[22:04:25][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: Role detached -> leader
+[22:04:25][D][esp-idf:000][ot_cli_main]: 
+[22:04:25]
+[22:04:25][D][esp-idf:000][ot_cli_main]: I(7284) OPENTHREAD:
+[22:04:25][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: Partition ID 0x2d9dc03a
+[22:04:25][D][esp-idf:000][ot_cli_main]: 
+[22:04:25]
+[22:04:27]ESP-ROM:esp32c6-20220919
+[22:04:27]Build:Sep 19 2022
+[22:04:27]rst:0x15 (USB_UART_HPSYS),boot:0x1f (SPI_FAST_FLASH_BOOT)
+[22:04:27]Saved PC:0x408052ec
+[22:04:27]SPIWP:0xee
+[22:04:27]mode:DIO, clock div:2
+[22:04:27]load:0x4086c110,len:0xd6c
+[22:04:27]load:0x4086e610,len:0x2ea4
+[22:04:27]load:0x40875720,len:0x1804
+[22:04:27]entry 0x4086c110
+[22:04:27]I (217) coexist: coex firmware version: 4482466
+[22:04:27]I (217) coexist: coexist rom version 5b8dcfa
+[22:04:27]I (217) main_task: Started on CPU0
+[22:04:27]I (217) main_task: Calling app_main()
+[22:04:28][I][logger:156]: Log initialized
+[22:04:28][D][esp-idf:000][main]: I (319) main_task: Returned from app_main()
+[22:04:28]
+[22:04:28][I][app:029]: Running through setup()...
+[22:04:28][D][esp-idf:000]: I (320) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+[22:04:28]
+[22:04:28][D][binary_sensor:034]: 'Button': Sending initial state OFF
+[22:04:28][I][openthread:028]: Setting up OpenThread...
+[22:04:28][D][esp-idf:000][ot_cli_main]: I (322) OPENTHREAD: Host connection mode none
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I (323) phy_init: phy_version 310,dde1ba9,Jun  4 2024,16:38:11
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I (394) phy: libbtbb version: 04952fd, Jun  4 2024, 16:38:26
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I(401) OPENTHREAD:
+[22:04:28][D][esp-idf:000][ot_cli_main]: [I] ChildSupervsn-: Timeout: 0 -> 190
+[22:04:28][D][esp-idf:000][ot_cli_main]: 
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I(405) OPENTHREAD:
+[22:04:28][D][esp-idf:000][ot_cli_main]: [I] Settings------: Read NetworkInfo {rloc:0xec00, extaddr:ca982663ee0bfd9c, role:leader, mode:0x0f, version:5, keyseq:0x0, ...
+[22:04:28][D][esp-idf:000][ot_cli_main]: 
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I(407) OPENTHREAD:
+[22:04:28][D][esp-idf:000][ot_cli_main]: [I] Settings------: ... pid:0x2d9dc03a, mlecntr:0x3ef, maccntr:0x3e8, mliid:7f12deafe948711b}
+[22:04:28][D][esp-idf:000][ot_cli_main]: 
+[22:04:28]
+[22:04:28]> [D][esp-idf:000][ot_cli_main]: I (409) OPENTHREAD: OpenThread attached to netif
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I (410) ot_esp_cli: Activating dataset...
+[22:04:28]
+[22:04:28][D][esp-idf:000][ot_cli_main]: I(413) OPENTHREAD:
+[22:04:28][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: Role disabled -> detached
+[22:04:28][D][esp-idf:000][ot_cli_main]: 
+[22:04:28]
+[22:04:28][D][esp-idf:000]: I (418) ot_esp_cli: OpenThread task started
+[22:04:28]
+[22:04:28][I][openthread:030]: OpenThread started
+[22:04:28][C][api:025]: Setting up Home Assistant API server...
+[22:04:28][I][app:062]: setup() finished successfully!
+[22:04:28][D][text_sensor:064]: 'OTT Thread RLOC16': Sending state 'ec00'
+[22:04:28][D][text_sensor:064]: 'OTT Thread Role': Sending state 'detached'
+[22:04:28][W][component:157]: Component api set Warning flag: unspecified
+[22:04:28][I][app:100]: ESPHome version 2024.9.0-dev compiled on Sep  2 2024, 21:57:00
+[22:04:28][C][logger:185]: Logger:
+[22:04:28][C][logger:186]:   Level: DEBUG
+[22:04:28][C][logger:188]:   Log Baud Rate: 115200
+[22:04:28][C][logger:189]:   Hardware UART: USB_SERIAL_JTAG
+[22:04:28][C][gpio.binary_sensor:015]: GPIO Binary Sensor 'Button'
+[22:04:28][C][gpio.binary_sensor:016]:   Pin: GPIO9
+[22:04:28][C][template.text_sensor:020]: Template Sensor 'OTT Thread RLOC16'
+[22:04:28][C][template.text_sensor:020]: Template Sensor 'OTT Thread Role'
+[22:04:28][C][mdns:116]: mDNS:
+[22:04:28][C][mdns:117]:   Hostname: openthread-poc-on-esp32c6
+[22:04:28][C][api:139]: API Server:
+[22:04:28][C][api:140]:   Address: :6053
+[22:04:28][C][api:142]:   Using noise encryption: YES
+[22:04:28][C][debug:021]: Debug component:
+[22:04:28][D][debug:035]: ESPHome version 2024.9.0-dev
+[22:04:28][D][debug:039]: Free Heap Size: 351624 bytes
+[22:04:28][D][debug:207]: Chip: Model=ESP32-C6, Features=WIFI_BGN,BLE,Other:00000040 Cores=1, Revision=1
+[22:04:28][D][debug:216]: ESP-IDF Version: 5.3.0.240816
+[22:04:28][D][debug:221]: EFuse MAC: 54:32:04:11:F1:F4
+[22:04:28][D][debug:127]: Reset Reason: Unknown Reset Reason
+[22:04:28][D][debug:269]: Wakeup Reason: No Sleep
+[22:04:47]> [D][binary_sensor:036]: 'Button': Sending state ON
+[22:04:48][D][binary_sensor:036]: 'Button': Sending state OFF
+[22:04:49][D][binary_sensor:036]: 'Button': Sending state ON
+[22:04:49][D][binary_sensor:036]: 'Button': Sending state OFF
+[22:04:50][D][binary_sensor:036]: 'Button': Sending state ON
+[22:04:50][D][binary_sensor:036]: 'Button': Sending state OFF
+[22:04:50][D][binary_sensor:036]: 'Button': Sending state ON
+[22:04:51][D][binary_sensor:036]: 'Button': Sending state OFF
+[22:04:55][D][esp-idf:000][ot_cli_main]: I(27478) OPENTHREAD:
+[22:04:55][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: RLOC16 ec00 -> fffe
+[22:04:55][D][esp-idf:000][ot_cli_main]: 
+[22:04:55]
+[22:04:55][D][esp-idf:000][ot_cli_main]: I(27536) OPENTHREAD:
+[22:04:55][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: Attach attempt 1, AnyPartition reattaching with Active Dataset
+[22:04:55][D][esp-idf:000][ot_cli_main]: 
+[22:04:55]
+[22:04:58][D][text_sensor:064]: 'OTT Thread RLOC16': Sending state 'fffe'
+[22:05:01][D][esp-idf:000][ot_cli_main]: I(34050) OPENTHREAD:
+[22:05:01][D][esp-idf:000][ot_cli_main]: [N] RouterTable---: Allocate router id 59
+[22:05:01][D][esp-idf:000][ot_cli_main]: 
+[22:05:01]
+[22:05:01][D][esp-idf:000][ot_cli_main]: I(34052) OPENTHREAD:
+[22:05:01][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: RLOC16 fffe -> ec00
+[22:05:01][D][esp-idf:000][ot_cli_main]: 
+[22:05:01]
+[22:05:01][D][esp-idf:000][ot_cli_main]: I(34053) OPENTHREAD:
+[22:05:01][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: Role detached -> leader
+[22:05:01][D][esp-idf:000][ot_cli_main]: 
+[22:05:01]
+[22:05:01][D][esp-idf:000][ot_cli_main]: I(34055) OPENTHREAD:
+[22:05:01][D][esp-idf:000][ot_cli_main]: [N] Mle-----------: Partition ID 0x1794c1ec
+[22:05:01][D][esp-idf:000][ot_cli_main]: 
+[22:05:01]
+[22:05:17][D][text_sensor:064]: 'OTT Thread Role': Sending state 'leader'
